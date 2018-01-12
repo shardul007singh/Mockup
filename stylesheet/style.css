@@ -1,0 +1,80 @@
+body {
+  background-color: #E6E6E6;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  /* padding: 1% 1%; */
+  font-size: 1.2em;
+  padding-right: 20rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border: 0;
+}
+.navbar-brand {
+  float: left;
+  min-height: 55px;
+  padding-top: 0px;
+}
+.navbar-default .navbar-nav .active a, .navbar-default .navbar-nav .active a:focus, .navbar-default .navbar-nav .active a:hover {
+  color: #333;
+  background-color: #F8F8F8;
+}
+.navbar-default .navbar-nav li a{
+  color: #c1c1c1;
+  padding: 3rem;
+}
+.rocket {
+  padding-left: 25rem;
+}
+.jumbotron {
+  background-color: #969696;
+  padding: 7%;
+}
+.jumbotron .container-fluid {
+  color: #ffffff;
+  padding: 10px;
+}
+.jumbotron .container-fluid .jumbotron-heading .heart {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.jumbotron .container-fluid .jumbo-para{
+  color: #ffffff;
+  padding-top: 3rem;
+}
+.jumbotron .btn {
+  border-radius: 50px;
+  color: #ffffff;
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 5px 30px;
+  text-align: center;
+}
+.btn-1 {
+  background-color: #7e7e7e;
+}
+.colors {
+  margin-top: -10rem;
+}
+.colors .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  /* background-color: #ffffff; */
+}
+.colors .col-lg-4 .image-class {
+  padding: 10px;
+}
+.colors h2 {
+  font-weight: 400;
+}
+.colors .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+  padding: 1% 10%;
+}
+.colors .col-lg-4 .color-column{
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding-bottom: 1%;
+}

@@ -1,0 +1,48 @@
+{
+  "navlist": [
+    {
+      "color": "Red",
+      "file-name": "red"
+    },
+    {
+      "color": "Blue",
+      "file-name": "blue"
+    },
+    {
+      "color": "Green",
+      "file-name": "green"
+    },
+    {
+      "color": "Yellow",
+      "file-name": "yellow"
+    },
+    {
+      "color": "Pink",
+      "file-name": "pink"
+    },
+    {
+      "color": "Purple",
+      "file-name": "purple"
+    }
+  ],
+  "colors": [
+    {
+      "color-name": "Blue",
+      "image-name": "blue",
+      "placeholder": "Blue-Image",
+      "about": "Blue is the color of sky and sea. It is often associated with depth and stability. It symbolizes trust, loyaly, wisdom, confidence, intelligence, faith, truth and heaven."
+    },
+    {
+      "color-name": "Green",
+      "image-name": "green",
+      "placeholder": "Green-Image",
+      "about": "Green is the color of nature. It symbolizes growth, harmony, freshness and fertility. Green has strong emotional correspondence with safety."
+    },
+    {
+      "color-name": "Red",
+      "image-name": "red",
+      "placeholder": "Red-Image",
+      "about": "Red is the color of fire and blood, so it is associated with energy, war, danger, strength, power, determination as well as passion desire and love."
+    }
+  ]
+}

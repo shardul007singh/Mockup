@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mockup Pink Color</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../stylesheet/style.css">
+
+  <style>
+  .jumbotron {background-color: #FF91ED;}
+  .jumbotron .container-fluid {color: #000000;}
+  .jumbotron .container-fluid .jumbo-para{color: #000000;}
+  </style>
+
+</head>
+
+<body>
+    <!-- Navigation Bar Section -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="rocket">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../img/rocket-64.png">
+            </a>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="MyNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- Using Handlebar JS to get the data from the JSON file and populate it one by one on the HTML with help of {{#each}} {{/each}}-->
+            <script id="color-list" type="text/x-handlebars-template">
+              {{#each navlist}}
+                <li><a href="../color-htmls/{{file-name}}.html">{{color}}</a></li>
+              {{/each}}
+            </script>
+          </ul>
+        </div> <!-- collapse navbar-collapse-->
+      </div> <!-- container-fluid -->
+    </nav> <!-- navbar navbar-default -->
+
+    <!-- Central Jumbotron Section -->
+    <div class="jumbotron text-center">
+      <div class="container-fluid">
+        <h1 class="jumbotron-heading">I <a class="heart"> <img src="../img/heart-5-64.png"></a> Color</h1>
+        <div class="jumbo-para lead text-muted text-center">
+          <p>Color really isn't that difficult to get right. If you know where to start.</p>
+          <p>Learn by doing you will be master is no time</p>
+        </div>
+        <p>
+          <a href="#" class="btn btn-1">Over to you</a>
+        </p>
+      </div> <!-- container-fluid -->
+    </div> <!-- Jumbotron -->
+
+    <!-- Color Coulumn Section -->
+    <div class="container colors">
+      <div class="row">
+        <!-- Using Handlebar JS to get the data from the JSON file and populate it one by one on the HTML with help of {{#each}} {{/each}}-->
+        <script id="color-list-container" type="text/x-handlebars-template">
+          {{#each colors}}
+          <div class="col-lg-4">
+            <div class="color-column">
+              <img class="image-class" src="../img/{{image-name}}.png" alt="{{placeholder}}" height="80" width="80">
+              <h3>{{color-name}}</h3>
+              <p>{{about}}</p>
+            </div> <!-- color-column -->
+          </div> <!-- col-lg-4 -->
+          {{/each}}
+        </script>
+      </div> <!-- row -->
+    </div> <!-- container -->
+
+    <!-- Importing Handle bar and custom JS files along with JQuery and Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../script/handlebars-v4.0.11.js"></script>
+    <script src="../script/script.js"></script>
+
+</body>
+
+</html>
